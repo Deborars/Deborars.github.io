@@ -1,0 +1,131 @@
+:root{
+  --red:#E50914;
+  --black:#141414;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*
+----------------
+base elements
+----------------
+*/
+body{
+  background:var(--black);
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header .container{
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a{
+  text-decoration: none;
+  color: #aaa;
+  margin-left: 10px;
+}
+
+header nav a:hover{
+  color: #fff;
+}
+
+/*
+----------------
+main movie
+----------------
+*/
+.main-movie{
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)100%),
+  url("../images/banner.jpg") center/cover no-repeat;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.main-movie .title{
+  margin-top: 15%;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main-movie .container{
+  width: 70%;
+}
+
+.main-movie .description{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.main-movie .btns .btn{
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.main-movie .btns .btn:hover{
+  color: #000;
+  background-color: #fff;
+}
+
+.main-movie .btns .btn i{
+  margin-right: 8px;
+}
+
+/*
+carousel
+*/
+.movies-carousel{
+  margin-top: 5px;
+}
+
+.movies-carousel .movie-box{
+  width: 100%;
+  height: 100%;
+  display:block;
+}
+
+/*
+----------------
+media queries
+----------------
+*/
+@media screen and (max-width:700px){
+  header .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-movie .btns .btn{
+  margin-top: 10px;
+  width: 300px;
+}
+}
+
+@media screen and (min-width:1000px){
+  .main-movie{
+    min-height: 80vh;
+  }
+
+  .main-movie .description{
+    width: 50%;
+  }
+}
