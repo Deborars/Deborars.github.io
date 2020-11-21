@@ -66,6 +66,10 @@ body{
   text-transform: uppercase;
 }
 
+.header blockquote{
+  font-size: 0.75rem;
+}
+
 .wrapper{
   background-color: #2d3436;
   color: #dfe6e9;
