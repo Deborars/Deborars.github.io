@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="226" height="147" viewBox="0 0 226 147">
+  <g id="retro" transform="translate(-894 -635)">
+    <g id="Rectangle_40" data-name="Rectangle 40" transform="translate(894 635)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="226" height="147" stroke="none"/>
+      <rect x="0.5" y="0.5" width="225" height="146" fill="none"/>
+    </g>
+    <path id="retro-2" data-name="retro" d="M45.5,95A17.5,17.5,0,1,0,63,112.5,17.5,17.5,0,0,0,45.5,95Zm0,0c10.1-34.1,42.6-59,80-59m0,0A46.5,46.5,0,1,0,172,82.5,46.5,46.5,0,0,0,125.5,36Zm0,0h.5c10,0,10-16,0-16H107L119,9M79,50V38H60V67m-8,45.5a6.5,6.5,0,1,1-6.5-6.5,6.5,6.5,0,0,1,6.5,6.5Zm80-30a6.5,6.5,0,1,1-6.5-6.5,6.5,6.5,0,0,1,6.5,6.5Z" transform="translate(906.5 633.2)" fill="rgba(0,0,0,0)" stroke="#fd4239" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="4"/>
+  </g>
+</svg>

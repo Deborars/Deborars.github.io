@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="226" height="147" viewBox="0 0 226 147">
+  <g id="passeio" transform="translate(-257 -635)">
+    <g id="Rectangle_38" data-name="Rectangle 38" transform="translate(257 635)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+      <rect width="226" height="147" stroke="none"/>
+      <rect x="0.5" y="0.5" width="225" height="146" fill="none"/>
+    </g>
+    <path id="passeio-2" data-name="passeio" d="M50.5,89.5h49m0,0L89.306,74M99.5,89.5c4.5-13.667,18.9-41,40.5-41M75.5,53,63,34M75.5,53C69,56,52,71,47,83.5M75.5,53l13.81,21M63,34H53m10,0H81m8.306,40c3.766-9.787,12.055-26.408,26.169-34.952A34.5,34.5,0,0,1,133.5,34H157M113,15h11l4.4,9M156,82.5,137.689,43m0,0H160l-6-19H128.4m9.289,19L128.4,24M78,89.5A34.5,34.5,0,1,1,43.5,55,34.5,34.5,0,0,1,78,89.5Zm-28,0A6.5,6.5,0,1,1,43.5,83,6.5,6.5,0,0,1,50,89.5Zm141,0A34.5,34.5,0,1,1,156.5,55,34.5,34.5,0,0,1,191,89.5Zm-28,0a6.5,6.5,0,1,1-6.5-6.5A6.5,6.5,0,0,1,163,89.5Z" transform="translate(266 637)" fill="none" stroke="#fd4239" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  </g>
+</svg>

@@ -1,0 +1,442 @@
+/*
+=====================
+VARIAVEIS
+=====================
+*/
+:root {
+  --primary-color: #213745;
+  --secondary-color: #f7efe2;
+  --tertiary-color: #fd4239;
+}
+
+/*
+=====================
+CONFIGURAÇÕES GERAIS
+=====================
+*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.875rem;
+  line-height: 20px;
+}
+
+.a {
+  display: inline-block;
+}
+
+.btn {
+  font-size: 0.875rem;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 4px solid var(--tertiary-color);
+  padding: 12px 20px;
+  width: 120px;
+  height: 20px;
+  margin: 40px 0;
+}
+
+.btn:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.subtitle {
+  font-size: 24px;
+  color: var(--primary-color);
+  margin: 30px 0 50px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.subtitle::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: var(--primary-color);
+  margin: 8px auto 0 auto;
+}
+
+.internal-subtitle {
+  font-size: 24px;
+  color: var(--primary-color);
+  margin: 30px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.internal-subtitle::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: var(--primary-color);
+  margin: 8px 0 12px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.call {
+  clear: both;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.call p {
+  margin-bottom: 30px;
+}
+.quote {
+  max-width: 20rem;
+  margin: 40px auto;
+}
+
+.quote p {
+  font-style: italic;
+  color: var(--secondary-color);
+}
+
+.quote p::before,
+.quote p::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: var(--secondary-color);
+  margin: 14px auto 10px auto;
+}
+
+.quote cite {
+  font-style: normal;
+  font-size: 0.875rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+/*
+=======================
+INTERNAL INTRO
+=======================
+*/
+.internal-intro {
+  margin-top: 92px;
+  width: 100%;
+  height: 140px;
+  color: var(--secondary-color);
+  padding-top: 20px;
+  text-align: center;
+}
+
+.internal-intro h1 {
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.internal-intro h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: var(--secondary-color);
+  margin: 4px auto 13px auto;
+}
+
+/*
+=====================
+HEADER
+=====================
+*/
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: var(--primary-color);
+  padding: 15px 0;
+  z-index: 10;
+  box-shadow: 0 1px 2px #080d0f8f;
+}
+
+.header-menu {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.header-menu ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.header-menu ul li a {
+  text-transform: uppercase;
+  color: var(--secondary-color);
+  font-weight: bold;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  padding: 15px 0;
+}
+
+.header-menu ul li a:hover {
+  color: var(--tertiary-color);
+}
+
+.header-menu ul li a.active-menu {
+  color: var(--tertiary-color);
+}
+
+/* 
+==================
+INTRO
+==================
+*/
+.intro {
+  width: 100%;
+  height: 380px;
+  margin-top: 5.75rem; /*distancia do header*/
+  background: url("../imagens/bg-intro.jpg") center/cover no-repeat;
+  text-align: center;
+  padding-top: 80px;
+  color: var(--secondary-color);
+}
+
+.intro h1 {
+  font-size: 48px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/*
+================
+Produtos
+================
+*/
+.products {
+  text-align: center;
+  background-color: var(--secondary-color);
+}
+
+.products-list {
+  background-color: var(--tertiary-color);
+  text-align: center;
+}
+
+.products-icon {
+  background-color: var(--primary-color);
+  padding: 20px;
+}
+
+.products-list .subtitle {
+  font-size: 1.125rem;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.products-list p {
+  font-size: 0.875rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: var(--primary-color);
+  line-height: 20px;
+  padding: 0 20px 20px;
+}
+
+.products .call .btn {
+  color: var(--primary-color);
+  border-color: var(--tertiary-color);
+}
+
+.products .call p {
+  color: var(--primary-color);
+}
+
+.products .call .btn:hover {
+  border-color: var(--primary-color);
+}
+/*
+==========================
+PORTFOLIO
+===========================
+*/
+.portfolio {
+  background-color: var(--primary-color);
+  padding: 40px 0;
+}
+
+.portfolio .subtitle {
+  margin: 20px 0;
+  color: var(--secondary-color);
+}
+
+.portfolio .subtitle::after {
+  background-color: var(--secondary-color);
+}
+
+.portfolio-list li:last-child {
+  margin-top: 20px;
+}
+
+.portfolio p {
+  color: var(--secondary-color);
+}
+
+.portfolio .btn {
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.portfolio .btn:hover {
+  border-color: var(--tertiary-color);
+}
+
+/*
+=====================
+QUALITY
+=====================
+*/
+
+.quality {
+  background-color: var(--secondary-color);
+}
+
+.quality::after {
+  content: "";
+  width: 593px;
+  height: 82px;
+  display: block;
+  background: url(../imagens/sociais/linhas.svg) no-repeat center;
+  position: absolute;
+  top: 218px;
+  left: 169px;
+}
+
+.quality img {
+  margin: 0 auto;
+}
+
+.quality-list {
+  padding-top: 20px;
+  overflow: hidden;
+}
+
+.quality-list li {
+  text-align: center;
+  padding: 0 40px;
+  color: var(--primary-color);
+}
+
+.quality-list .subtitle {
+  font-size: 1.125rem;
+  margin: 40px 20px 8px;
+  font-weight: normal;
+}
+
+.quality p {
+  color: var(--primary-color);
+}
+
+.quality .call .btn {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+/*
+=====================
+SPACER
+=====================
+*/
+
+.spacer {
+  width: 100%;
+  height: 234px;
+  background: url("../imagens/separador.png") center/cover no-repeat;
+  text-align: center;
+  padding-top: 25px;
+}
+
+.spacer .quote {
+  max-width: 400px;
+}
+
+/*
+========================
+FOOTER
+========================
+*/
+.footer {
+  background-color: var(--primary-color);
+  width: 100%;
+  color: var(--secondary-color);
+}
+
+.footer .subtitle {
+  text-align: left;
+  font-size: 18px;
+  color: var(--tertiary-color);
+  margin: 20px 0;
+}
+
+.footer .subtitle::after {
+  content: "";
+  background-color: var(--tertiary-color);
+  margin: 8px 0 0;
+}
+
+.footer-historia {
+  padding-right: 40px;
+}
+
+.footer-contato {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.875rem;
+  line-height: 20px;
+}
+
+.footer-redes ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer .copy {
+  background-color: var(--primary-color);
+  padding: 20px;
+  margin: 10px 0 0;
+  color: var(--tertiary-color);
+  border: 1px solid transparent;
+  border-top-color: var(--tertiary-color);
+}
+
+/*CSS P/ JS*/
+.js [data-anime] {
+  opacity: 0;
+}
+
+/* 7 CSS personalizado dependendo da animação desejada */
+.js .fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+.js .fadeInUp {
+  transform: translate3d(0, 20px, 0);
+}
+.js .fadeInRight {
+  transform: translate3d(20px, 0, 0);
+}
+.js .fadeInLeft {
+  transform: translate3d(-20px, 0, 0);
+}
+
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: transform 0.8s, opacity 0.8s;
+}

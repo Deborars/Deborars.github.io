@@ -1,0 +1,26 @@
+.portfolio-intro {
+  background: url(../imagens/portfolio/filtro-portfolio.jpg) center/cover
+    no-repeat;
+}
+.portfolio-quote {
+  max-width: 370px;
+  font-size: 18px;
+  color: #213745;
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.portfolio-quote p {
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  line-height: 20px;
+  padding-bottom: 20px;
+}
+
+.portfolio-quote cite {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
